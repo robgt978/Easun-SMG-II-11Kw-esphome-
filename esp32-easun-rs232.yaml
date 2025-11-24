@@ -546,10 +546,10 @@ select:
     address: 632
     value_type: U_WORD
     optionsmap:
-      "SOF": 1
-      "SNU": 2
-      "OSO": 3
-      "SOT": 4
+      "Solar first (SOF)": 1
+      "Solar and Utility (SNU)": 2
+      "Only Solar (OSO)": 3
+      "Solar residual (SOT)": 4
 
   # Turn on mode                                                  Uint  693 1 R/W 0: Can be turn-on locally or remotely, 1: Only local turn-on, 2: Only remote turn-on
   - platform: modbus_controller
